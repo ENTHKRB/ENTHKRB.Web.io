@@ -1,0 +1,175 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+#backToIndex {
+    position: fixed;
+    margin: 20px;
+    background-color: transparent;
+    color: gold;
+    text-decoration: none;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    width: auto;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#backToIndex:hover {
+    background-color: gold;
+    color: white;
+    cursor: pointer;
+}
+
+#top-outer {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: table;
+}
+
+#top-inner {
+    display: table-cell;
+    text-align: center;
+}
+
+body {
+    background: url("music_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#top-inner h1 {
+    font-size: 50px; 
+    color: gold;
+    margin-top: 20px;
+}
+
+#top-inner h3 {
+    color: yellow; 
+    font-family: KaiTi; 
+    font-size: 20px;
+    padding-left: 25%; 
+    padding-right: 25%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.nav {
+    position: fixed;
+    top: 30%;
+    left: -14%;
+    width: 15%;
+    border: 2px solid yellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease;
+    z-index: 999;
+}
+
+.nav:hover {
+    left: 0%;
+}
+
+.nav li {
+    list-style: none;
+    margin: 5px;
+}
+
+.nav p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: gold;
+    font-weight: bold;
+    font-family: Microsoft YeHei;
+}
+
+.nav a {
+    color: gold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: SimHei;
+    font-weight: bold;
+    padding: 3px;
+    transition: color 0.2s ease;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.section {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 100px;
+}
+
+.section h1 {
+    font-family: Microsoft YeHei;
+    font-size: 35px;
+    text-align: center;
+    background-color: transparent;
+    color: gold;
+    text-shadow: 0 0 30px yellow;  
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.text-music {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 4;
+}
+
+.text-music h3, .text-music h2 {
+    font-family: SimHei;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+}
+
+.text-music h2 {
+    color: yellow;
+    border-left: 5px solid gold;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text-music audio {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.image-container {
+    display: flex;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+#toReport {
+    position: fixed;
+    margin: 20px;
+    background-color: transparent;
+    color: dodgerblue;
+    text-decoration: none;
+    border: 2px solid deepskyblue;
+    border-radius: 10px;
+    text-align: center;
+    width: auto;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#toReport:hover {
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+#top-outer {
+    width: 100%;
+    overflow: hidden;
+    background: url("index_top_background.jpg") no-repeat center center;
+    display: table;
+}
+
+#top-inner {
+    display: table-cell;
+    text-align: center;
+}
+
+body {
+    background: url("monster_hunter_world_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#top-inner h1 {
+    font-size: 50px; 
+    color: deepskyblue;
+    margin-top: 20px;
+}
+
+#top-inner h3 {
+    color: dodgerblue; 
+    font-family: KaiTi; 
+    font-size: 20px;
+    padding-left: 25%; 
+    padding-right: 25%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.section {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid deepskyblue;
+    border-bottom: 2px solid deepskyblue;
+    margin-bottom: 100px;
+}
+
+.section h1 {
+    font-family: Microsoft YeHei;
+    text-align: center;
+    background-color: transparent;
+    color: deepskyblue;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 4;
+}
+
+.text h3, .text h2 {
+    font-family: Microsoft YeHei;
+    text-align: center;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text h2 {
+    color: deepskyblue;
+    border-left: 5px solid dodgerblue;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.image-container {
+    display: flex;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+
+.image-container img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.guide-box {
+    border: 2px solid dodgerblue;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.guide-box h2, .guide-box h3 {
+    color: deepskyblue;
+    margin: 10px;
+    text-align: center;
+}
+
+.guide-box a {
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    width: 50%;
+    color: dodgerblue;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+
+.guide-box a:hover {
+    background-color: deepskyblue;
+    color: white;
+}
